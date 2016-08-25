@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">FinalPrice</string>
+	<color name="blue">#2196f3</color>
+	<color name="accent_blue">#1976d2</color>
+  <color name="textBlue">#09375b</color>
+  <color name="textOrange">#f39621</color>
+  <color name="listviewRowColor">#e9f5ff</color>
+</resources>

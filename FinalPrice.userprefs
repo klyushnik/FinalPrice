@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="FinalPrice\FinalPrice.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinalPrice\MainActivity.cs">
+    <Files>
+      <File FileName="FinalPrice\MainActivity.cs" Line="109" Column="15" />
+      <File FileName="FinalPrice\SelectTaxFragment.cs" Line="73" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FinalPrice AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="FinalPriceStyle" />
+</Properties>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.rasputinstudios.finalprice" android:installLocation="auto" android:versionName="3.0.1" android:versionCode="7">
+  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="21" />
+  <application android:label="Final Price Pro" android:theme="@style/FinalPriceStyle" android:icon="@drawable/icon" android:name="mono.android.app.Application" android:allowBackup="true">
+    <activity android:label="Settings" android:screenOrientation="portrait" android:name="md54c7c7b53b00edbd13dcfeee4023055b9.Settings" />
+    <activity android:label="Welcome" android:name="md54c7c7b53b00edbd13dcfeee4023055b9.Welcome" />
+    <activity android:label="Help" android:name="md54c7c7b53b00edbd13dcfeee4023055b9.Help" />
+    <activity android:label="About" android:name="md54c7c7b53b00edbd13dcfeee4023055b9.About" />
+    <activity android:icon="@drawable/icon" android:label="Final Price Pro" android:screenOrientation="portrait" android:theme="@style/FinalPriceStyle" android:windowSoftInputMode="stateUnspecified|adjustNothing" android:name="md54c7c7b53b00edbd13dcfeee4023055b9.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.rasputinstudios.finalprice.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="250dp"
+    android:minHeight="320dp"
+    android:weightSum="12"
+    android:background="#fff">
+    <TextView
+        android:text="Standard Tax"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/OptionStandardTax"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:textColor="@color/textBlue"
+        android:background="@color/listviewRowColor"
+        android:tag="0" />
+    <TextView
+        android:text="Tax Exempt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/OptionTaxExempt"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:textColor="@color/textBlue"
+        android:tag="1" />
+    <TextView
+        android:text="TAX_LABEL_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/Option1"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:textColor="@color/textBlue"
+        android:background="@color/listviewRowColor"
+        android:tag="2" />
+    <TextView
+        android:text="TAX_LABEL_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/Option2"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:textColor="@color/textBlue"
+        android:tag="3" />
+    <TextView
+        android:text="TAX_LABEL_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/Option3"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:textColor="@color/textBlue"
+        android:background="@color/listviewRowColor"
+        android:tag="4" />
+    <TextView
+        android:text="Cancel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/OptionCancel"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@color/textOrange" />
+</LinearLayout>

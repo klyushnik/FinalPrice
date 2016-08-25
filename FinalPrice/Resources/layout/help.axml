@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:weightSum="100">
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView1"
+        android:layout_weight="90">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Final Price Help"
+                android:textColor="@color/textBlue"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="1. General Usage"
+                android:textColor="@color/textOrange"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="Using this app is simple. Just enter the sticker price, discount (if any), and tax options, if any. Any tax options will be counted in addition to the main sales tax, with the exception of the Tax Exempt, which will void the tax altogether. If a tax option is labeled as an &quot;only tax&quot;, it will replace the main tax."
+                android:textColor="@color/textBlue"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="2. Types of Taxes"
+                android:textColor="@color/textOrange"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="You can configure up to three additional taxes in the app settings. The options for each tax are as follows:"
+                android:textColor="@color/textBlue"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="- Percentage vs dollars. The percentage will act like a regular tax, taking the sticker price and counting a percentage of it, such as tobacco. The dollar tax is a flat fee for a product, such as $5 electronics recycle fee for TVs, tablets, or computer monitors."
+                android:textColor="@color/textBlue"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="- Only Tax. This tax will replace the main tax. It's useful if you are in a different area, or if you have a certain fee on otherwise a tax-exempt item, or if a tax is simply a different percentage from the main one."
+                android:textColor="@color/textBlue"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/bottomLinearLayout"
+        android:layout_weight="10"
+        android:gravity="bottom"
+        android:background="@color/listviewRowColor">
+        <TextView
+            android:text="BACK"
+            android:id="@+id/backTextView"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/textOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:paddingRight="25dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="25dp" />
+        <TextView
+            android:text="[Scroll for the rest of the text]"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textStyle="italic"
+            android:paddingRight="25dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="25dp" />
+    </LinearLayout>
+</LinearLayout>

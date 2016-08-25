@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="260dp"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <ImageView
+        android:src="@drawable/fp_drawer_logo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView1"
+        android:scaleType="fitStart" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:weightSum="100">
+        <TextView
+            android:text="Configure Taxes"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/textView1"
+            android:layout_weight="20"
+            android:textColor="#09365b"
+            android:drawableLeft="@drawable/ic_settings_black_24dp"
+            android:drawablePadding="23dp"
+            android:clickable="true"
+            android:padding="17dp"
+            android:gravity="center_vertical"
+            android:textSize="16dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ccc" />
+        <TextView
+            android:text="Help"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/textView2"
+            android:layout_weight="20"
+            android:textColor="#09365b"
+            android:drawableLeft="@drawable/ic_help_black_24dp"
+            android:drawablePadding="23dp"
+            android:clickable="true"
+            android:padding="17dp"
+            android:gravity="center_vertical"
+            android:textSize="16dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ccc" />
+        <TextView
+            android:text="About Final Price"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/textView3"
+            android:layout_weight="20"
+            android:textColor="#09365b"
+            android:drawableLeft="@drawable/ic_stars_black_24dp"
+            android:drawablePadding="23dp"
+            android:clickable="true"
+            android:padding="17dp"
+            android:gravity="center_vertical"
+            android:textSize="16dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ccc" />
+    </LinearLayout>
+</LinearLayout>

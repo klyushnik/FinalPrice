@@ -1,0 +1,10 @@
+E:\prog\Android\FinalPrice\FinalPrice\obj\Debug\assemblies\FinalPrice.dll
+E:\prog\Android\FinalPrice\FinalPrice\obj\Debug\assemblies\Mono.Android.dll
+E:\prog\Android\FinalPrice\FinalPrice\obj\Debug\assemblies\mscorlib.dll
+E:\prog\Android\FinalPrice\FinalPrice\obj\Debug\assemblies\System.Core.dll
+E:\prog\Android\FinalPrice\FinalPrice\obj\Debug\assemblies\System.dll
+E:\prog\Android\FinalPrice\FinalPrice\obj\Debug\assemblies\System.Xml.dll
+E:\prog\Android\FinalPrice\FinalPrice\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
+E:\prog\Android\FinalPrice\FinalPrice\obj\Debug\assemblies\Xamarin.Android.Support.v7.AppCompat.dll
+E:\prog\Android\FinalPrice\FinalPrice\obj\Debug\assemblies\System.Runtime.Serialization.dll
+E:\prog\Android\FinalPrice\FinalPrice\obj\Debug\assemblies\System.ServiceModel.Internals.dll
